@@ -1,8 +1,154 @@
-#page{
-  border:2px solid red;
+#sketch {
   width:400px;
-  height:10000px;
+  height:800px;
+  background-color: gray;
+  position:absolute;
+  top:100px;
+  left:200px;
+}
+
+#text_sketch {
+  width:500px;
+  height:300px;
+  background-color: gray;
+  position:absolute;
+  top:400px;
+  left:900px;
+}
+
+#pencil {
+  width:25px;
+  height:600px;
+  background-color: black;
+  position:absolute;
+  top:2px;
+  left:600px;
+  transform: rotate(35deg);
+  animation: draw 1s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite; }
+
+@keyframes  draw{
+     50% {transform: translateY(50px);}
+}
+
+#text_sketch {
+  width:500px;
+  height:300px;
+  background-color: gray;
+  position:absolute;
+  top:400px;
+  left:900px;
+}
+
+
+#shirt{
+  width:200px;
+  height:300px;
+  background-color: gray;
+  position:absolute;
+  top:4000px;
+  left:700px;
+}
+
+#fabric{
+  width:600px;
+  height:300px;
+  background-color: gray;
+  position:absolute;
+  top:1100px;
+  left:500px;
+  transition: height 5s;
+}
+
+#text_fabricleft {
+  width:200px;
+  height:300px;
+  background-color: gray;
+  position:absolute;
+  top:1100px;
+  left:-200px;
+}
+
+#text_fabricright {
+  width:200px;
+  height:300px;
+  background-color: gray;
+  position:absolute;
+  top:1600px;
+  left:1200px;
+}
+
+/*Section guidelines*/
+#section1{
+  border:2px solid red;
+  height:1000px;
+  width:
   margin:0 auto;
   position:relative;
 
 }
+#section2{
+  border:2px solid green;
+  height:1000px;
+  margin:0 auto;
+  position:relative;
+
+}
+#section3{
+  border:2px solid yellow;
+  height:1000px;
+  margin:0 auto;
+  position:relative;
+
+}
+#section4{
+  border:2px solid blue;
+  height:1000px;
+  margin:0 auto;
+  position:relative;
+
+}
+#section5{
+  border:2px solid orange;
+  height:1000px;
+  margin:0 auto;
+  position:relative;
+
+}
+#section6{
+  border:2px solid purple;
+  height:1000px;
+  margin:0 auto;
+  position:relative;
+
+}
+#section7{
+  border:2px solid red;
+  height:1000px;
+  margin:0 auto;
+  position:relative;
+
+}
+#section8{
+  border:2px solid blue;
+  height:1000px;
+  margin:0 auto;
+  position:relative;
+
+}
+#section9{
+  border:2px solid yellow;
+  height:1000px;
+  margin:0 auto;
+  position:relative;
+
+}
+#section10{
+  border:2px solid green;
+  height:1000px;
+  margin:0 auto;
+  position:relative;
+}
+
+/*End section guidelines*/
