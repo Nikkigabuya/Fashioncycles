@@ -27,6 +27,11 @@ window.onscroll = function(){
   document.getElementById("text_fabricleft").style.left = "-35px";
   }
 
+  if(y > 800){
+  document.getElementById("text_fabricright").style.left = "800px";
+  } else {
+  document.getElementById("text_fabricright").style.left = "-35px";
+  }
 
 
 };

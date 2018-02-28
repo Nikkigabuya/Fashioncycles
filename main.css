@@ -32,15 +32,6 @@
      50% {transform: translateY(50px);}
 }
 
-#text_sketch {
-  width:500px;
-  height:300px;
-  background-color: gray;
-  position:absolute;
-  top:400px;
-  left:900px;
-}
-
 
 #shirt{
   width:200px;
@@ -76,7 +67,7 @@
   background-color: gray;
   position:absolute;
   top:1600px;
-  left:1200px;
+  right:-200px;
 }
 
 /*Section guidelines*/
