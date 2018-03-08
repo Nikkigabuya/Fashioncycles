@@ -1,7 +1,10 @@
+body {
+    background: linear-gradient(to bottom, #00ccff 0%, #666699 50%, #ffccff 100%);
+}
+
 #sketch {
   width:400px;
   height:800px;
-  background-color: gray;
   position:absolute;
   top:100px;
   left:200px;
@@ -10,7 +13,6 @@
 #text_sketch {
   width:500px;
   height:300px;
-  background-color: gray;
   position:absolute;
   top:400px;
   left:900px;
@@ -34,9 +36,6 @@
 
 
 #shirt{
-  width:200px;
-  height:300px;
-  background-color: gray;
   position:absolute;
   top:4000px;
   left:700px;
@@ -55,7 +54,6 @@
 #text_fabricleft {
   width:200px;
   height:300px;
-  background-color: gray;
   position:absolute;
   top:1100px;
   left:-200px;
@@ -64,15 +62,28 @@
 #text_fabricright {
   width:200px;
   height:300px;
-  background-color: gray;
   position:absolute;
   top:1600px;
   right:-200px;
 }
 
+#text_fabricleft2 {
+  width:200px;
+  height:300px;
+  position:absolute;
+  top:2300px;
+  left:-200px;
+}
+
+#text_fabricright2 {
+  width:200px;
+  height:300px;
+  position:absolute;
+  top:2800px;
+  right:-200px;
+}
 /*Section guidelines*/
 #section1{
-  border:2px solid red;
   height:1000px;
   width:
   margin:0 auto;
