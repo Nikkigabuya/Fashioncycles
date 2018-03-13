@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
 body {
-    background: linear-gradient(to bottom, #0066cc 0%, #996633 60%, #0066cc 100%);
+    background: linear-gradient(to bottom, rgb(135,206,250) 0%, rgba(221,190,64,1) 46%, rgba(168,217,235,1) 80%, rgb(135,206,250) 100%);
 }
+
 
 #sketch {
   width:400px;
@@ -11,6 +15,8 @@ body {
 }
 
 #text_sketch {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
   width:500px;
   height:300px;
   position:absolute;
@@ -18,10 +24,7 @@ body {
   left:900px;
 }
 
-#pencil {
-  width:25px;
-  height:600px;
-  background-color: black;
+#pen {
   position:absolute;
   top:2px;
   left:600px;
@@ -63,7 +66,7 @@ a {
   transition: height 4s;
   }
 
-a:hover{
+a:focus{
         height:1000px;
        }
 
@@ -85,15 +88,18 @@ a:hover{
 }
 
 #text_fabricleft {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
   width:200px;
   height:300px;
   position:absolute;
   top:1100px;
   left:-200px;
-  background: #fff;
 }
 
 #text_fabricright {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
   width:200px;
   height:300px;
   position:absolute;
@@ -102,14 +108,18 @@ a:hover{
 }
 
 #text_fabricleft2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
   width:200px;
-  height:300px;
-  position:absolute;
-  top:2300px;
-  left:-200px;
+   height:300px;
+   position:absolute;
+   top:2300px;
+   left:-200px;
 }
 
 #text_fabricright2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
   width:200px;
   height:300px;
   position:absolute;
@@ -119,6 +129,8 @@ a:hover{
 
 
 #text_fabricleft {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
   width:200px;
   height:300px;
   position:absolute;
@@ -127,6 +139,8 @@ a:hover{
 }
 
 #text_fabricright {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
   width:200px;
   height:300px;
   position:absolute;
@@ -135,6 +149,8 @@ a:hover{
 }
 
 #text_fabricleft2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
   width:200px;
   height:300px;
   position:absolute;
@@ -143,6 +159,8 @@ a:hover{
 }
 
 #text_fabricright2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
   width:200px;
   height:300px;
   position:absolute;
@@ -157,6 +175,8 @@ a:hover{
 }
 
 #text_factoryleft {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
   width:200px;
   height:300px;
   position:absolute;
@@ -165,6 +185,8 @@ a:hover{
 }
 
 #text_factoryright {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
   width:200px;
   height:300px;
   position:absolute;
@@ -173,6 +195,8 @@ a:hover{
 }
 
 #text_factoryleft2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
   width:200px;
   height:300px;
   position:absolute;
@@ -194,6 +218,8 @@ a:hover{
 
 
 #text_landfillleft {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
   width:200px;
   height:300px;
   position:absolute;
@@ -202,6 +228,8 @@ a:hover{
 }
 
 #text_landfillright {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
   width:200px;
   height:300px;
   position:absolute;
@@ -210,6 +238,8 @@ a:hover{
 }
 
 #text_landfillleft2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
   width:200px;
   height:300px;
   position:absolute;
@@ -218,6 +248,8 @@ a:hover{
 }
 
 #text_landfillright2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
   width:200px;
   height:300px;
   position:absolute;

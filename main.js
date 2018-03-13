@@ -44,35 +44,4 @@ window.onscroll = function(){
   document.getElementById("text_fabricright2").style.left = "50px";
   } else {
   document.getElementById("text_fabricright2").style.right = "-35px";
-  }
-
-
-if (y > 900) {
-    Show();
-} else {
-    Hide();
-}
-
-(function($) {
-    $(document).ready(function() {
-        $.jScrollability([
-            {
-                'selector': '#text_fabricleft2 ',
-                'start': 'parent',
-                'end': 'parent',
-                'fn': {
-                    'left': {
-                        'start': 100,
-                        'end': 0,
-                        'unit': '%'
-                    }
-                }
-            }
-        ]);
-    });
-})(jQuery);
-
-
-
-
-;
+}}
