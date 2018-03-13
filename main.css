@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to bottom, #00ccff 0%, #666699 50%, #ffccff 100%);
+    background: linear-gradient(to bottom, #0066cc 0%, #996633 60%, #0066cc 100%);
 }
 
 #sketch {
@@ -41,7 +41,7 @@ body {
   left:700px;
 }
 
-#fabric{
+/*#fabric{
   width:600px;
   height:300px;
   background-color: gray;
@@ -50,6 +50,39 @@ body {
   left:500px;
   transition: height 5s;
 }
+*/
+
+a {
+  background-color: white;
+  position:absolute;
+  top:1100px;
+  left:500px;
+  display:block;
+  height: 200px;
+  width:800px;
+  transition: height 4s;
+  }
+
+a:hover{
+        height:1000px;
+       }
+
+
+
+#topfabric{  background-color: red;
+  position:absolute;
+  top:1000px;
+  left:500px;
+  height: 100px;
+  width:800px;
+    animation: bounce 1s ease-in-out infinite;
+}
+
+@keyframes bounce {
+
+  50% {transform:translateY(25px);}
+
+}
 
 #text_fabricleft {
   width:200px;
@@ -57,6 +90,7 @@ body {
   position:absolute;
   top:1100px;
   left:-200px;
+  background: #fff;
 }
 
 #text_fabricright {
@@ -82,6 +116,115 @@ body {
   top:2800px;
   right:-200px;
 }
+
+
+#text_fabricleft {
+  width:200px;
+  height:300px;
+  position:absolute;
+  top:1100px;
+  left:-200px;
+}
+
+#text_fabricright {
+  width:200px;
+  height:300px;
+  position:absolute;
+  top:1600px;
+  right:-200px;
+}
+
+#text_fabricleft2 {
+  width:200px;
+  height:300px;
+  position:absolute;
+  top:2300px;
+  left:300px;
+}
+
+#text_fabricright2 {
+  width:200px;
+  height:300px;
+  position:absolute;
+  top:2800px;
+  right:400px;
+}
+
+#factory {  position:absolute;
+  top:2900px;
+  right:400px;
+
+}
+
+#text_factoryleft {
+  width:200px;
+  height:300px;
+  position:absolute;
+  top:3300px;
+  left:300px;
+}
+
+#text_factoryright {
+  width:200px;
+  height:300px;
+  position:absolute;
+  top:3800px;
+  right:400px;
+}
+
+#text_factoryleft2 {
+  width:200px;
+  height:300px;
+  position:absolute;
+  top:3500px;
+  right:500px;
+}
+
+#f22{  position:absolute;
+  top:4500px;
+  left:100px;
+
+}
+
+#zaza {  position:absolute;
+        top:4500px;
+        left:500px;
+
+}
+
+
+#text_landfillleft {
+  width:200px;
+  height:300px;
+  position:absolute;
+  top:5100px;
+  left:300px;
+}
+
+#text_landfillright {
+  width:200px;
+  height:300px;
+  position:absolute;
+  top:5600px;
+  right:-200px;
+}
+
+#text_landfillleft2 {
+  width:200px;
+  height:300px;
+  position:absolute;
+  top:5300px;
+  left:300px;
+}
+
+#text_landfillright2 {
+  width:200px;
+  height:300px;
+  position:absolute;
+  top:5800px;
+  right:400px;
+}
+
 /*Section guidelines*/
 #section1{
   height:1000px;
