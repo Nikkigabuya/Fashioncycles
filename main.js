@@ -53,6 +53,25 @@ if (y > 900) {
     Hide();
 }
 
+(function($) {
+    $(document).ready(function() {
+        $.jScrollability([
+            {
+                'selector': '#text_fabricleft2 ',
+                'start': 'parent',
+                'end': 'parent',
+                'fn': {
+                    'left': {
+                        'start': 100,
+                        'end': 0,
+                        'unit': '%'
+                    }
+                }
+            }
+        ]);
+    });
+})(jQuery);
+
 
 
 
