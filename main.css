@@ -2,6 +2,7 @@
 
 
 body {
+  background: url("clouds.png");
     background: linear-gradient(to bottom, rgb(135,206,250) 0%, rgba(221,190,64,1) 46%, rgba(168,217,235,1) 80%, rgb(135,206,250) 100%);
 }
 
@@ -44,18 +45,37 @@ body {
   left:700px;
 }
 
-/*#fabric{
-  width:600px;
-  height:300px;
-  background-color: gray;
+
+#fabricroll {
+  z-index: -1;
+  width:700px;
+  height:1000px;
   position:absolute;
   top:1100px;
   left:500px;
-  transition: height 5s;
 }
-*/
 
-a {
+
+#dye{
+  width:700px;
+  height:1200px;
+  position:absolute;
+  top:1800px;
+  left:500px;
+  animation:8s ease 5s normal infinite fadein;
+-webkit-animation:8s ease 5s normal infinite fadein;
+opacity:0
+}
+@keyframes fadein{from{opacity:0}
+to{opacity:1}
+}
+
+@-webkit-keyframes fadein{from{opacity:0}
+to{opacity:1}
+}
+
+
+/*a {
   background-color: white;
   position:absolute;
   top:1100px;
@@ -69,7 +89,15 @@ a {
 a:focus{
         height:1000px;
        }
-
+*/
+#extra {
+    background-color:white;
+    position:absolute;
+    top:2000px;
+    left:500px;
+    height: 1000px;
+    width:800px;
+}
 
 
 #topfabric{  background-color: red;
@@ -169,8 +197,19 @@ a:focus{
 }
 
 #factory {  position:absolute;
-  top:2900px;
+  top:3525px;
   right:400px;
+
+}
+
+#factory2 {  position:absolute;
+  top:3525px;
+  left: :100px;
+
+}
+#factory3 {  position:absolute;
+  top:3525px;
+  left: :1000px;
 
 }
 
