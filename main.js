@@ -1,4 +1,6 @@
 var shirt = document.getElementById("shirt");
+var oldshirt = document.getElementById("oldshirt");
+var dirtyshirt = document.getElementById("dirtyshirt");
 var fabricroll = document.getElementById("fabricroll");
 
 window.onscroll = function(){
@@ -6,14 +8,22 @@ window.onscroll = function(){
     var y = window.pageYOffset;
   //  shirt.style.top = 200 + y  + "px";
 
- if(y >= 4050){
+ if(y >= 4000){
 
-     shirt.style.top= 100 + y + "px";
+     shirt.style.top= 200 + y + "px";
 
      }
- else{
-   shirt.style.top = -900 + y  + "px";
-  }
+     if(y >= 6000){
+
+         oldshirt.style.top= 200 + y + "px";
+
+         }
+         if(y >= 7000){
+
+             dirtyshirt.style.top= 200 + y + "px";
+
+             }
+
 
 
 
@@ -46,7 +56,7 @@ window.onscroll = function(){
   document.getElementById("text_fabricright").style.right = "-35px";
   }
 
-  if(y > 550){
+  if(y > 1000){
   document.getElementById("text_fabricleft2").style.left = "50px";
   } else {
   document.getElementById("text_fabricleft2").style.left = "-35px";
@@ -56,4 +66,10 @@ window.onscroll = function(){
   document.getElementById("text_fabricright2").style.left = "50px";
   } else {
   document.getElementById("text_fabricright2").style.right = "-35px";
+}
+
+if(y > 4000){
+document.getElementById("hanger").style.left = "500px";
+} else {
+document.getElementById("hanger").style.left = "-35px";
 }}

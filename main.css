@@ -42,8 +42,21 @@ body {
 #shirt{
   position:absolute;
   top:4000px;
-  left:700px;
+  left:500px;
 }
+
+#oldshirt{
+  position:absolute;
+  top:8050px;
+  left:500px;
+}
+
+#dirtyshirt{
+  position:absolute;
+  top:9050px;
+  left:500px;
+}
+
 
 
 #fabricroll {
@@ -196,20 +209,27 @@ a:focus{
   right:400px;
 }
 
+#smoke {position:absolute;
+  top:3325px;
+  left:255px;
+}
+
 #factory {  position:absolute;
-  top:3525px;
-  right:400px;
+  top:3500px;
+  left:400px;
+  z-index: 1;
 
 }
 
 #factory2 {  position:absolute;
-  top:3525px;
-  left: :100px;
+  top:3500px;
+  left:0px;
 
 }
-#factory3 {  position:absolute;
-  top:3525px;
-  left: :1000px;
+#factory3 {
+  position:absolute;
+  top:3500px;
+  right:-300px;
 
 }
 
@@ -255,6 +275,44 @@ a:focus{
 
 }
 
+#hanger {  position:absolute;
+        top:4300px;
+        left:500px;
+
+}
+
+#goodwill {  position:absolute;
+        top:5300px;
+        left:500px;
+
+}
+
+#country1 {  position:absolute;
+        top:6300px;
+        left:200px;
+
+}
+
+#country2 {  position:absolute;
+        top:6300px;
+        left:500px;
+
+}
+
+#country3 {  position:absolute;
+        top:6300px;
+        left:700px;
+
+}
+
+#country4 {  position:absolute;
+        top:6300px;
+        left:800px;
+
+}
+
+
+
 
 #text_landfillleft {
   font-family: 'Roboto', sans-serif;
@@ -294,6 +352,12 @@ a:focus{
   position:absolute;
   top:5800px;
   right:400px;
+}
+
+#earth {  position:absolute;
+        top:9300px;
+        left:800px;
+
 }
 
 /*Section guidelines*/
