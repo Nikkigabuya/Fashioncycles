@@ -6,9 +6,9 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
 body {
-    background: linear-gradient(to bottom, rgb(0,0,0) 0%, rgba(113,206,239,1) 17%,
-    rgba(91,143,70,1) 26%, rgba(194,171,78,1) 31%, rgba(224,62,62,1) 41%, rgba(112,173,88,1) 74%,
-    rgba(156,139,97,1) 78%, rgba(117,174,235,1) 100%);
+    background: linear-gradient(to bottom, rgb(255,127,80) 17%,
+    rgba(91,143,70,1) 26%, rgba(194,171,78,1) 31%, rgba(255,255,255,1) 41%, rgba(224,62,62,1) 65%, rgba(183,194,179,1) 70%,
+    rgba(117,174,235,1) 80%, rgba(34,99,168,1) 100%);
 }
 
 .container{height:10000px;}
@@ -41,7 +41,6 @@ body {
   text-align: center;
   font-family: '215000E';
   font-size: 170px;
-  background-color:white;
   height:200px;
   width:850px;
   position:absolute;
@@ -59,7 +58,6 @@ body {
   font-family: 'Roboto', sans-serif;
   text-align: center;
   font-size: 25px;
-  background-color: white;
   width:500px;
   height:50px;
   position:absolute;
@@ -70,13 +68,13 @@ body {
 #text_sketch2 {
   font-family: 'Roboto', sans-serif;
   text-align: left;
-  font-size: 25px;
-  background-color: white;
-  width:330px;
+  font-size: 35px;
+  width:700px;
   height:50px;
   position:absolute;
   top:500px;
-  left:900px;
+  left:800px;
+  text-decoration-style: bold;
 }
 
 #pen {
@@ -208,11 +206,11 @@ a:focus{
   background-color: white;
   font-size: 25px;
   text-align: center;
-  width:785px;
+  width:750px;
    height:120px;
    position:absolute;
    top:2300px;
-   left:390px;
+   left:410px;
 }
 
 #text_fabricright2 {
@@ -300,26 +298,15 @@ a:focus{
 
 }
 
-#text_factoryleft {
-  font-family: 'Roboto', sans-serif;
-  font-size: 20px;
-  width:200px;
-  height:300px;
-  position:absolute;
-  top:3300px;
-  left:300px;
-}
-
 #text_factoryright {
-  background-color: #D3D3D3;
   font-family: 'Roboto', sans-serif;
-  text-align:center;
-  font-size: 20px;
+  text-align:left;
+  font-size: 27px;
   width:400px;
   height:60px;
   position:absolute;
-  top:3175px;
-  left:575px;
+  top:3275px;
+  left:525px;
 }
 
 #text_factoryleft2 {
@@ -392,11 +379,10 @@ a:focus{
               top:5500px;
               left:1000px;
               font-family: 'Roboto', sans-serif;
-              font-size: 20px;
+              font-size: 27px;
               width:300px;
               height:100px;
-              text-align: center;
-              background-color:#3579DC;
+              text-align: left;
             }
 
 /*COUNTRIES*/
@@ -456,12 +442,13 @@ a:focus{
 
 #text_landfillleft {
   font-family: 'Roboto', sans-serif;
-  font-size: 20px;
-  width:200px;
+  font-size: 27px;
+  width:400px;
   height:300px;
   position:absolute;
   top:7200px;
-  left:1100px;
+  left:1000px;
+
 }
 
 #text_landfillright {
@@ -474,15 +461,6 @@ a:focus{
   right:-200px;
 }
 
-#text_landfillleft2 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 20px;
-  width:200px;
-  height:300px;
-  position:absolute;
-  top:5300px;
-  left:300px;
-}
 
 #text_landfillright2 {
   font-family: 'Roboto', sans-serif;
@@ -507,7 +485,9 @@ a:focus{
 #text_earth {
   position:absolute;
         top:9300px;
-        left:310px;
+        left:110px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 40px;
 }
 
 /*ALTERNTIVES
@@ -555,7 +535,6 @@ a:focus{
 #alternatives {  text-align: center;
   font-family: '215000E';
   font-size: 170px;
-  background-color:white;
   height:200px;
   width:850px;
   position:absolute;
@@ -572,8 +551,17 @@ a:focus{
 }
 
 #text_alt1{ position:absolute;
-        top:8500px;
-        left:200px
+        top:8400px;
+        left:170px;
+        height:100px;
+        width:200px;
+        background-color: white;
+        text-align: center;
+        line-height: 150px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 40px;
+        border-size:5px;
+        border-color: black;
 
 }
 
@@ -583,8 +571,15 @@ a:focus{
 
 }
 #text_alt2{ position:absolute;
-        top:8700px;
-        left:1200px
+        top:8600px;
+        left:1070px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 40px;
+        height:100px;
+        width:200px;
+        background-color: white;
+        text-align: center;
+        line-height: 150px;
 
 }
 
@@ -594,8 +589,17 @@ a:focus{
 
 }
 #text_alt3{ position:absolute;
-        top:9100px;
-        left:200px;
+        top:9000px;
+        left:190px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 40px;
+        height:100px;
+        width:200px;
+        background-color: white;
+        text-align: center;
+        line-height: 150px;
+        z-index: 1;
+
 
 }
 
