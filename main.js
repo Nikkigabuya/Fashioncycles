@@ -56,4 +56,18 @@ if(y > 4000){
 document.getElementById("hanger").style.left = "575px";
 } else {
 document.getElementById("hanger").style.left = "-35px";
-}}
+}
+
+if(y > 7400){
+document.getElementById("landfill1").style.left = "575px";
+} else {
+document.getElementById("landfill1").style.left = "-35px";
+}
+
+if(y > 7500){
+document.getElementById("landfill2").style.left = "775px";
+} else {
+document.getElementById("landfill2").style.left = "-35px";
+}
+
+}
