@@ -5,6 +5,7 @@
     <title>Fashion Life Cycle</title>
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="main.css">
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
   </head>
   <body>
 
@@ -19,23 +20,22 @@
     <div id="section9"></div>
     <div id="section10"></div>
 
-
-<div id="sketch"><img src="SHIRTf.gif" alt="Girl in a jacket" height="500px" width="475px"></div>
+<!--SKETCH-->
+<div class="sketch">
+<div id="sketch"><img src="SHIRTf.gif" alt="Girl in a jacket" height="400px" width="375px"></div>
 <div id="pen"><img src="pen.png" alt="Girl in a jacket" height="300px"></div>
 <div id="pencil"></div>
-<div id="text_sketch">Fashion is the second dirtiest industry in the world. Next to oil companies
-      <p>The world now consumes about 80 billion new pieces of clothing every year.</p>
-      <p>This is 400% more than the amount we consumes just two decades ago</p>
-      <p>The average American now generates 82 lbs. of textile waste each year.</p>
+<div id="text_sketch">Fashion</div>
+ <div id="text_sketch1">is the second dirtiest industry in the world. Next to oil companies.</div>
 </div>
 
-<div id="fabric"><a href=""></a></div>
+<!--FABRIC-->
 <div id="fabricroll"><img src="fabricroll.gif" alt="Girl in a jacket" height="1000px" width="800px"></div>
+<div id="fabric"></div>
 <div id="extra"></div>
 <div id="dye"><img src="dye.png" alt="Girl in a jacket" height="1200px" width="800px"></div>
 <div id="topfabric"></div>
 
-<div id="fabric"></div>
 <div id="text_fabricleft">The average sized textile manufacturing facilities consumes 1.6 million liters of water everyday</div>
 <div id="text_fabricright">7 trillion liters of water are consumed on an annual basis in order to meet global textile demands
                           for more than 7 million people in the US for 1 year.</div>
@@ -44,44 +44,84 @@
 <div id="text_fabricright2">It takes 2,700 liters of wter to make one cotton T-shirt.</div>
 
 
+<!--FACTORY-->
 <div id="factory"><img src="factory.png" alt="factory" height="500px" width="600px"> </div>
 <div id="smoke"><img src="smoke.png" alt="factory" height="200px" width="100px"> </div>
 <div id="factory2"><img src="factory2.png" alt="factory" height="500px" width="600px"> </div>
 <div id="smoke2"><img src="smoke.png" alt="factory" height="300px" width="200px"> </div>
 <div id="factory3"><img src="factory3.png" alt="factory" height="500px" width="1000px"> </div>
 <div id="smoke3"><img src="smoke.png" alt="factory" height="300px" width="200px"> </div>
-
-
-<div id="text_factoryright">132 million tons of coal consumes on an annual basis</div>
-
-<div class=factory2>
+  <div id="text_factoryright">132 million tons of coal consumes on an annual basis</div>
   <div id="text_factoryleft2">The industry earns almost 3 trillion dollars a year and workers in countries like India, Bangladesh or Cambodia
-                            earn less than $3 per day with some only earning $1 a day.</div></div>
+                            earn less than $3 per day with some only earning $1 a day.</div>
 
+
+<!--SALE-->
 <div id="f22"> <img src="Forever_21_Logo_01.jpg" width="200" height="100"  alt="Girl in a jacket"> </div>
-
 <div id="zaza"> <img src="zara.png" width="200" height="100" alt="Girl in a jacket"> </div>
 <div id="hanger"><img src="hanger.png" alt="hanger" height="200px" width="400px"> </div>
+<div id="text_store">The world now consumes about 80 billion new pieces of clothing every year.</div>
+<div id="text_store1">This is 400% more than the amount we consumes just two decades ago</div>
 
+
+<!--GOODWILL-->
 <div id="goodwill"><img src="goodwill.png" alt="goodwill" height="300px" width="900px"> </div>
+<div id="text_goodwill">90% of clothes donated to charities actually get sold to developing countires or end up filling up landfills.</div>\
 
+
+<!--COUNTRIES-->
 <div id="country1"><img src="country1.png" alt="country" height="300px" width="500px"> </div>
 <div id="country2"><img src="country2.png" alt="country" height="300px" width="500px"> </div>
 <div id="country3"><img src="country3.png" alt="country" height="300px" width="500px"> </div>
 <div id="country4"><img src="country4.png" alt="country" height="300px" width="500px"> </div>
 
-<div id="text_landfillleft">It takes 200 years for polyester to break down</div>
-<div id="text_landfillright">Shipped to other countries</div>
-<div id="text_landfillright2">90% of clothes donated to charities actually get sold to developing countires or end up filling up landfills.</div>
-<div id="text_landfillright3">Assuming infinite resources in a finite world is not a sustainable business model.</div>
+<!--LANDFILL-->
+<div id="landfill1"><img src="landfill.png" alt="landfill" height="300px" width="500px"> </div>
+<div id="landfill2"><img src="landfill2.png" alt="landfill2" height="300px" width="500px"> </div>
+<div id="text_landfillleft">The average American now generates 82 lbs. of textile waste each year.</div>
+  <div id="text_landfillright">It takes 200 years for polyester to break down</div>
 
+
+<!--EARTH-->
 <div id="earth"><img src="earth.png" alt="earth" height="300px" width="500px"> </div>
+<div id="text_earth">Assuming infinite resources in a finite world is not a sustainable business model.</div>
 
+<!--SHIRT-->
 <div id="shirt"> <img src="SHIRT.png" alt="shirt" width="500px" height="500px"> </div>
 <div id="oldshirt"> <img src="oldshirt.png" alt="shirt" width="550px" height="550px"> </div>
 <div id="dirtyshirt"> <img src="dirtyshirt.png" alt="shirt" width="550px" height="550px"> </div>
 
+<!--Alternatives-->
+<article id="parallax_wrap">
+  <div class="vert_parallax">alt</div>
+  <div class="vert_parallax">ter</div>
+  <div class="vert_parallax">natives</div>
+</article>
 
+<!-- Alternatives  -->
+<script type="text/javascript">
+  $(window).scroll(function() {
+    $("div.vert_parallax").css({
+        "top": ($(window).scrollTop()*1) + "px"
+    })
+});
+</script>
+
+<script type="text/javascript">
+  $(window).scroll(function() {
+    $("#parallax_wrap div:nth-child(3)").css({
+        "top": ($(window).scrollTop()*2) + "px"
+    })
+});
+</script>
+
+<script type="text/javascript">
+  $(window).scroll(function() {
+    $("#parallax_wrap div:nth-child(2)").css({
+        "top": ($(window).scrollTop()*0.5) + "px"
+    })
+});
+</script>
 
 <script type="text/javascript" src="main.js">
 </script>

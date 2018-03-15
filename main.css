@@ -1,21 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
-
-
-body {
-  background: url("clouds.png");
-    background: linear-gradient(to bottom, rgb(135,206,250) 0%, rgba(221,190,64,1) 46%, rgba(168,217,235,1) 80%, rgb(135,206,250) 100%);
+@font-face {
+    font-family: '215000E';
+    src: url("215000E.ttf");
 }
 
+
+/*body {
+  background: url("clouds.png");
+    background: linear-gradient(to bottom, rgb(135,206,250) 0%, rgba(221,190,64,1) 46%, rgba(168,217,235,1) 80%, rgb(135,206,250) 100%);
+} */
+
+.sketch{
+  background-color:#ff6347;
+}
 
 #sketch {
   width:400px;
   height:800px;
   position:absolute;
-  top:100px;
-  left:200px;
+  top:250px;
+  left:150px;
 }
 
-#text_sketch {
+#text_sketch1 {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   width:500px;
@@ -27,9 +34,9 @@ body {
 
 #pen {
   position:absolute;
-  top:2px;
-  left:600px;
-  transform: rotate(35deg);
+  top:175px;
+  left:420px;
+  transform: rotate(20deg);
   animation: draw 1s;
   animation-direction: alternate;
   animation-iteration-count: infinite; }
@@ -38,6 +45,20 @@ body {
      50% {transform: translateY(50px);}
 }
 
+#text_sketch {
+  font-family: '215000E';
+  font-size: 200px;;
+  position:absolute;
+  top:0px;
+  left:400px;
+    animation:blinkingText 3s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: #000;    }
+    49%{    color: transparent; }
+    50%{    color: transparent; }
+    100%{   color: #000;    }
+}
 
 #shirt{
   position:absolute;
@@ -263,35 +284,50 @@ a:focus{
   right:500px;
 }
 
+/*STORE*/
+
 #f22{  position:absolute;
   top:4500px;
   left:100px;
-
-}
+  }
 
 #zaza {  position:absolute;
         top:4500px;
         left:500px;
-
-}
+      }
 
 #hanger {  position:absolute;
         top:4300px;
         left:500px;
+      }
+
+#text_store {
+          position:absolute;
+          top:4300px;
+          left:300px;
 
 }
+
+#text_store1 {
+          position:absolute;
+          top:4300px;
+          left:600px;
+
+}
+
+/*GOODWILL*/
 
 #goodwill {  position:absolute;
         top:5300px;
         left:500px;
+      }
 
-}
+/*COUNTRIES*/
 
 #country1 {  position:absolute;
         top:6300px;
         left:200px;
-
-}
+      }
 
 #country2 {  position:absolute;
         top:6300px;
@@ -358,6 +394,48 @@ a:focus{
         top:9300px;
         left:800px;
 
+}
+
+/*ALTERNTIVES*/
+.alternatives{
+  position:fixed;
+  top:6000px;
+  width: 300px;
+  height: 100px;
+  background-color:#0000ff;
+  left:40%;
+  color:white;
+  text-align: center;
+  line-height: 100px;
+  opacity: 0.6;
+}
+
+.vert_parallax{
+  position:fixed;
+  top:6000px;
+  width: 300px;
+  height: 100px;
+  background-color:#0000ff;
+  left:40%;
+  color:white;
+  text-align: center;
+  line-height: 100px;
+  opacity: 0.6;
+}
+
+#parallax_wrap{
+  height: 100%;
+  width: 100%;
+  background-color: red;
+}
+
+#parallax_wrap div:nth-child(2){
+  left: 0;
+}
+
+#parallax_wrap div:nth-child(3){
+  top:6000px;
+  left: 80%;
 }
 
 /*Section guidelines*/
