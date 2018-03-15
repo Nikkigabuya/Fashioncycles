@@ -22,8 +22,7 @@ window.onscroll = function(){
 
              dirtyshirt.style.top= 200 + y + "px";
 
-             }
-
+           }}
 
 
 
@@ -44,29 +43,8 @@ window.onscroll = function(){
 //   fabric.style.top = 100 + y  + "px";
  //}
 
-  if(y > 550){
-  document.getElementById("text_fabricleft").style.left = "100px";
-  } else {
-  document.getElementById("text_fabricleft").style.left = "-35px";
-  }
 
-  if(y > 800){
-  document.getElementById("text_fabricright").style.left = "50px";
-  } else {
-  document.getElementById("text_fabricright").style.right = "-35px";
-  }
 
-  if(y > 1000){
-  document.getElementById("text_fabricleft2").style.left = "50px";
-  } else {
-  document.getElementById("text_fabricleft2").style.left = "-35px";
-  }
-
-  if(y > 800){
-  document.getElementById("text_fabricright2").style.left = "50px";
-  } else {
-  document.getElementById("text_fabricright2").style.right = "-35px";
-}
 
 if(y > 4000){
 document.getElementById("hanger").style.left = "500px";
