@@ -3,11 +3,15 @@
     font-family: '215000E';
     src: url("215000E.ttf");
 }
-
+@import url('https://fonts.googleapis.com/css?family=Lato');
 
 body {
-    background-color:#E82E2E;
+    background: linear-gradient(to bottom, rgb(0,0,0) 0%, rgba(113,206,239,1) 17%,
+    rgba(91,143,70,1) 26%, rgba(194,171,78,1) 31%, rgba(224,62,62,1) 41%, rgba(112,173,88,1) 74%,
+    rgba(156,139,97,1) 78%, rgba(117,174,235,1) 100%);
 }
+
+.container{height:10000px;}
 
 #sketch{
   width:auto;
@@ -18,7 +22,7 @@ body {
   color:red;
 }
 
-#sketch{
+/*#sketch{
   background-color: blue;
   width:400px;
   height:460px;
@@ -26,7 +30,7 @@ body {
   top:250px;
   left:150px;
 }
-
+*/
 #sketch1 {
   position:absolute;
   top:300px;
@@ -47,8 +51,7 @@ body {
 }
 @keyframes blinkingText{
     0%{     color: #000;    }
-    49%{    color: transparent; }
-    50%{    color: transparent; }
+    25%{    color: transparent; }
     100%{   color: #000;    }
 }
 
@@ -72,7 +75,7 @@ body {
   width:330px;
   height:50px;
   position:absolute;
-  top:700px;
+  top:500px;
   left:900px;
 }
 
@@ -98,14 +101,14 @@ body {
 
 #oldshirt{
   position:absolute;
-  top:8050px;
-  left:500px;
+  top:8000px;
+  left:475px;
 }
 
 #dirtyshirt{
   position:absolute;
-  top:9050px;
-  left:500px;
+  top:9000px;
+  left:475px;
 }
 
 
@@ -156,6 +159,14 @@ a:focus{
 */
 
 /*FABRIC*/
+
+.water {
+  z-index:-1;
+  position:absolute;
+  top:700px;
+  left:0px;
+}
+
 #extra {
     background-color:white;
     position:absolute;
@@ -163,7 +174,6 @@ a:focus{
     left:410px;
     height: 1000px;
     width:750px;
-    box-shadow: 1050px 1050px 8px #888888;
 }
 
 
@@ -182,34 +192,27 @@ a:focus{
 
 }
 
-#text_fabricleft {
+
+#text_fabricr {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
-  width:200px;
+  width:650px;
   height:300px;
   position:absolute;
-  top:1100px;
-  left:-200px;
+  top:1400px;
+  left:465px;
 }
 
-#text_fabricright {
+#text_fabricl {
   font-family: 'Roboto', sans-serif;
-  font-size: 17px;
-  width:300px;
-  height:300px;
-  position:absolute;
-  top:1600px;
-  right:200px;
-}
-
-#text_fabricleft2 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 20px;
-  width:400px;
-   height:300px;
+  background-color: white;
+  font-size: 25px;
+  text-align: center;
+  width:785px;
+   height:120px;
    position:absolute;
    top:2300px;
-   left:400px;
+   left:390px;
 }
 
 #text_fabricright2 {
@@ -263,14 +266,24 @@ a:focus{
   right:400px;
 }
 
+/*FACTORY*/
+
+#sky {
+  position: absolute;
+  top:3000px;
+  left: 0;
+}
+
 #smoke {position:absolute;
   top:3325px;
-  left:255px;
+  left:380px;
+  animation: bounce 1s ease-in-out infinite;
 }
 
 #factory {  position:absolute;
+  z-index: -1;
   top:3500px;
-  left:400px;
+  left:600px;
   z-index: 1;
 
 }
@@ -298,13 +311,15 @@ a:focus{
 }
 
 #text_factoryright {
+  background-color: #D3D3D3;
   font-family: 'Roboto', sans-serif;
+  text-align:center;
   font-size: 20px;
-  width:200px;
-  height:300px;
+  width:400px;
+  height:60px;
   position:absolute;
-  top:3800px;
-  right:400px;
+  top:3175px;
+  left:575px;
 }
 
 #text_factoryleft2 {
@@ -319,14 +334,20 @@ a:focus{
 
 /*STORE*/
 
+#bar{
+  position:absolute;
+    top:4000px;
+    left:0px;
+}
+
 #f22{  position:absolute;
-  top:4500px;
+  top:4300px;
   left:100px;
   }
 
 #zaza {  position:absolute;
-        top:4500px;
-        left:500px;
+        top:4300px;
+        left:1100px;
       }
 
 #hanger {  position:absolute;
@@ -336,52 +357,102 @@ a:focus{
 
 #text_store {
           position:absolute;
-          top:4300px;
-          left:300px;
-
+          top:4680px;
+          left:50px;
+          font-family: 'Roboto', sans-serif;
+          font-size: 20px;
+          text-align: center;
+          width:400px;
+          height:60px;
+          background-color:black;
+          color: white;
 }
 
 #text_store1 {
           position:absolute;
-          top:4300px;
-          left:600px;
-
+          top:4680px;
+          left:1000px;
+          font-family: 'Roboto', sans-serif;
+          font-size: 20px;
+          text-align: center;
+          width:400px;
+          height:60px;
+          background-color:black;
+          color: white;
 }
 
 /*GOODWILL*/
 
 #goodwill {  position:absolute;
-        top:5300px;
-        left:500px;
+        top:5020px;
+        left:300px;
       }
+
+#text_goodwill {  position:absolute;
+              top:5500px;
+              left:1000px;
+              font-family: 'Roboto', sans-serif;
+              font-size: 20px;
+              width:300px;
+              height:100px;
+              text-align: center;
+              background-color:#3579DC;
+            }
 
 /*COUNTRIES*/
 
+#text_country{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  width:400px;
+  height:50px;
+  position:absolute;
+  top:6300px;
+  left:100px;
+  text-align: center;
+}
+
 #country1 {  position:absolute;
-        top:6300px;
-        left:200px;
+        top:5700px;
+        left:100px;
       }
 
 #country2 {  position:absolute;
-        top:6300px;
-        left:500px;
+        top:6200px;
+        left:1000px;
 
 }
 
 #country3 {  position:absolute;
-        top:6300px;
-        left:700px;
+        top:6600px;
+        left:400px;
 
 }
 
 #country4 {  position:absolute;
-        top:6300px;
-        left:800px;
+        top:6800px;
+        left:100px;
 
 }
 
 
 
+/*LANDFILL*/
+
+#landfill1{
+  position:absolute;
+          top:7600px;
+          left:0px;
+          z-index: 1;
+          opacity:.9;
+}
+#landfill2{
+  position:absolute;
+          top:7600px;
+          left:800px;
+          z-index: 1;
+          opacity:.9;
+}
 
 #text_landfillleft {
   font-family: 'Roboto', sans-serif;
@@ -389,8 +460,8 @@ a:focus{
   width:200px;
   height:300px;
   position:absolute;
-  top:5100px;
-  left:300px;
+  top:7200px;
+  left:1100px;
 }
 
 #text_landfillright {
@@ -423,13 +494,23 @@ a:focus{
   right:400px;
 }
 
-#earth {  position:absolute;
-        top:9300px;
-        left:800px;
+/*EARTH*/
+
+#earth {
+  z-index: 1;
+  position:absolute;
+        top:9500px;
+        left:210px;
 
 }
 
-/*ALTERNTIVES*/
+#text_earth {
+  position:absolute;
+        top:9300px;
+        left:310px;
+}
+
+/*ALTERNTIVES
 .alternatives{
   position:fixed;
   top:6000px;
@@ -469,9 +550,57 @@ a:focus{
 #parallax_wrap div:nth-child(3){
   top:6000px;
   left: 80%;
+}*/
+
+#alternatives {  text-align: center;
+  font-family: '215000E';
+  font-size: 170px;
+  background-color:white;
+  height:200px;
+  width:850px;
+  position:absolute;
+  top:8100px;
+  left:300px;
+
 }
 
-/*Section guidelines*/
+#check1{  position:absolute;
+        top:8400px;
+        left:100px;
+        z-index: -1;
+
+}
+
+#text_alt1{ position:absolute;
+        top:8500px;
+        left:200px
+
+}
+
+#check2{  position:absolute;
+        top:8600px;
+        left:1000px;
+
+}
+#text_alt2{ position:absolute;
+        top:8700px;
+        left:1200px
+
+}
+
+#check3{  position:absolute;
+        top:9000px;
+        left:100px;
+
+}
+#text_alt3{ position:absolute;
+        top:9100px;
+        left:200px;
+
+}
+
+
+/*Section guidelines
 #section1{
   height:1000px;
   width:

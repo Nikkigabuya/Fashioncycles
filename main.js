@@ -2,6 +2,7 @@ var shirt = document.getElementById("shirt");
 var oldshirt = document.getElementById("oldshirt");
 var dirtyshirt = document.getElementById("dirtyshirt");
 var fabricroll = document.getElementById("fabricroll");
+var earth = document.getElementById("earth");
 
 window.onscroll = function(){
 
@@ -10,20 +11,25 @@ window.onscroll = function(){
 
  if(y >= 4000){
 
-     shirt.style.top= 200 + y + "px";
+     shirt.style.top= 170 + y + "px";
 
      }
-     if(y >= 6000){
+     if(y >= 5500){
 
-         oldshirt.style.top= 200 + y + "px";
+         oldshirt.style.top= 140 + y + "px";
 
          }
          if(y >= 7000){
 
-             dirtyshirt.style.top= 200 + y + "px";
+             dirtyshirt.style.top= 140 + y + "px";
 
-           }}
+           }
 
+           if(y >= 9000){
+
+               earth.style.top= 25 + y + "px";
+
+             }
 
 
 
@@ -47,7 +53,7 @@ window.onscroll = function(){
 
 
 if(y > 4000){
-document.getElementById("hanger").style.left = "500px";
+document.getElementById("hanger").style.left = "575px";
 } else {
 document.getElementById("hanger").style.left = "-35px";
 }}
